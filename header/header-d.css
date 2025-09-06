@@ -98,7 +98,7 @@ body{
 .mega-menu .mega-menu-row .mega-menu-column:nth-child(1){
     max-width: 25%;
     margin-right: 30px;
-}
+} 
 .mega-menu .mega-menu-row .mega-menu-column{
     font-size: 16px;
     color: white;
@@ -111,7 +111,14 @@ body{
 .mega-menu .mega-menu-row .mega-menu-column p{
     font-size: 16px;
     font-family: "SuisseIntl-Regular";
+    line-height: 25px;
     
+}
+.mega-menu .mega-menu-row .mega-menu-column ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
 }
 .mega-menu .mega-menu-row .mega-menu-column ul li{
     list-style: none;
